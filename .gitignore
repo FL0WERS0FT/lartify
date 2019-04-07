@@ -3,7 +3,12 @@
 /public/storage
 /public/js
 /public/css
-/public/mix-manifest.json
+/public/img
+/public/favicon.ico
+/public/manifest.json
+/public/precache-manifest.*.js
+/public/robots.txt
+/public/service-worker.js
 /public/vendor
 /storage/*.key
 /vendor
