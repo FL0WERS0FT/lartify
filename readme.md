@@ -15,5 +15,8 @@ The template is still in progress and cannot be used yet.
 * `php artisan migrate`
 * `php artisan telescope:publish`
 * `php artisan passport:install`
-* `npm install`
 * Copy the folders of languages that you want, in the resources/lang folder of your Laravel application (Files of languages are in "vendor/caouecs/laravel-lang" directory)
+* `cd frontend`
+* `yarn install`
+* `yarn serve`
+* Open http://localhost:8080 in your Browser
