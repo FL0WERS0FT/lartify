@@ -11,6 +11,12 @@
       >
         <span class="mr-2">Login</span>
       </v-btn>
+      <v-btn
+        flat
+        to="register"
+      >
+        <span class="mr-2">Register</span>
+      </v-btn>
     </v-toolbar>
 
     <v-content>
