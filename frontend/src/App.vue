@@ -5,16 +5,10 @@
         <span>Lartify</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        to="login"
-      >
+      <v-btn flat to="login">
         <span class="mr-2">Login</span>
       </v-btn>
-      <v-btn
-        flat
-        to="register"
-      >
+      <v-btn flat to="register">
         <span class="mr-2">Register</span>
       </v-btn>
     </v-toolbar>
@@ -27,13 +21,12 @@
 
 <script>
 export default {
-  name: 'Lartify',
-  components: {
-  },
-  data () {
+  name: "Lartify",
+  components: {},
+  data() {
     return {
       //
-    }
+    };
   }
-}
+};
 </script>
