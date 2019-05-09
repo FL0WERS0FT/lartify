@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->group(static function () {
     Route::post('login', 'AuthController@login');
+    Route::post('logout', 'AuthController@logout');
     Route::post('register', 'AuthController@register');
 
     Route::middleware('auth:api')->group(static function () {
