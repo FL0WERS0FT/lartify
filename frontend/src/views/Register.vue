@@ -62,7 +62,7 @@ export default class Home extends Vue {
   protected repeatPassword: string = "";
 
   protected register() {
-    this.$http.post("/api/v1/register", {
+    axios.post("/api/v1/register", {
         name: this.username,
         email: this.email,
         password: this.password
