@@ -1,15 +1,8 @@
-// profile/mutations.ts
+import {MutationTree} from 'vuex';
+import {AuthState} from "@/models/authState";
 
-import { MutationTree } from 'vuex';
-import { ProfileState, User } from './types';
-
-export const mutations: MutationTree<ProfileState> = {
-    profileLoaded(state, payload: User) {
-        state.error = false;
-        state.user = payload;
-    },
-    profileError(state) {
-        state.error = true;
-        state.user = undefined;
+export const mutations: MutationTree<AuthState> = {
+    setToken(state, token: string) {
+        state.token = token;
     }
 };

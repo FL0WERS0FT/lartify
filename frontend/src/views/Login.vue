@@ -47,11 +47,11 @@ export default class Home extends Vue {
   protected password: string = "";
 
   protected login() {
-      this.$http.post('/api/v1/login', {
+      axios.post('/api/v1/login', {
           email: this.email,
           password: this.password
       }).then(response => {
-          this.$store.token = response.data.token;
+        this.$store.dispatch('auth/setToken', response.data.token);
           this.$router.push('dashboard');
       });
   }

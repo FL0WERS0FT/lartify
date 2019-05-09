@@ -1,20 +1,17 @@
-// profile/index.ts
+import {Module} from 'vuex';
+import {getters} from './getters';
+import {actions} from './actions';
+import {mutations} from './mutations';
+import {AuthState} from "@/models/authState";
+import {RootState} from "@/models/rootState";
 
-import { Module } from 'vuex';
-import { getters } from './getters';
-import { actions } from './actions';
-import { mutations } from './mutations';
-import { ProfileState } from './types';
-import { RootState } from '../types';
-
-export const state: ProfileState = {
-    user: undefined,
-    error: false
+export const state: AuthState = {
+    token: undefined
 };
 
 const namespaced: boolean = true;
 
-export const profile: Module<ProfileState, RootState> = {
+export const auth: Module<AuthState, RootState> = {
     namespaced,
     state,
     getters,

@@ -1,21 +1,10 @@
-// profile/actions.ts
-
-import { ActionTree } from 'vuex';
-import axios from 'axios';
-import { ProfileState, User } from './types';
-import { RootState } from '../types';
+import {ActionTree} from 'vuex';
+import {AuthState} from "@/models/authState";
+import {RootState} from "@/models/rootState";
 
 
-export const actions: ActionTree<ProfileState, RootState> = {
-    fetchData({ commit }): any {
-        axios({
-            url: 'https://....'
-        }).then((response) => {
-            const payload: User = response && response.data;
-            commit('profileLoaded', payload);
-        }, (error) => {
-            console.log(error);
-            commit('profileError');
-        });
+export const actions: ActionTree<AuthState, RootState> = {
+    setToken({commit}, token: string): any {
+        commit('setToken', token);
     }
 };

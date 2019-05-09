@@ -1,16 +1,16 @@
 import Vue from 'vue';
-import Vuex, { StoreOptions } from 'vuex';
-import { RootState } from './types';
-import { profile } from './auth/index';
+import Vuex, {StoreOptions} from 'vuex';
+import {auth} from './auth/index';
+import {RootState} from "@/models/rootState";
 
 Vue.use(Vuex);
 
 const store: StoreOptions<RootState> = {
-    state: {
-        version: '1.0.0' // a simple property
+    state:{
+        version: "1.0.0",
     },
     modules: {
-        profile
+        auth
     }
 };
 
