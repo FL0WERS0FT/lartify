@@ -13,18 +13,24 @@
                   <v-text-field
                     label="Username"
                     v-model="username"
+                    :error="errors['name'] !== undefined"
+                    :error-messages="errors['name']"
                   ></v-text-field>
                 </v-flex>
                 <v-flex xs12>
                   <v-text-field
                     label="E-Mail"
                     v-model="email"
+                    :error="errors['email'] !== undefined"
+                    :error-messages="errors['email']"
                   ></v-text-field>
                 </v-flex>
                 <v-flex xs12>
                   <v-text-field
                     label="Password"
                     v-model="password"
+                    :error="errors['password'] !== undefined"
+                    :error-messages="errors['password']"
                     :append-icon="showPassword ? 'visibility' : 'visibility_off'"
                     :type="showPassword ? 'text' : 'password'"
                     @click:append="showPassword = !showPassword"
@@ -61,15 +67,31 @@ export default class Home extends Vue {
   protected password: string = "";
   protected repeatPassword: string = "";
 
+  get errors(){
+    return this.$store.state.auth.errors;
+  }
+
   protected register() {
     axios.post("/api/v1/register", {
         name: this.username,
         email: this.email,
         password: this.password
     }).then(response => {
-        this.$store.token = response.data.token;
+        this.$store.dispatch('auth/setToken', response.data.token);
         this.$router.push('dashboard');
+    }).catch(errors => {
+        if (errors.response) {
+            if (errors.response.data) {
+                this.$store.dispatch('auth/setErrors', errors.response.data.errors);
+            }
+        } else {
+            console.log(errors);
+        }
     });
+  }
+
+  protected destroyed(): void {
+    this.$store.dispatch('auth/setErrors', {});
   }
 }
 </script>

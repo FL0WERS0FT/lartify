@@ -53,6 +53,14 @@ export default class Home extends Vue {
       }).then(response => {
         this.$store.dispatch('auth/setToken', response.data.token);
           this.$router.push('dashboard');
+      }).catch(errors => {
+        if (errors.response) {
+          if (errors.response.data) {
+            this.$store.dispatch('auth/setErrors', errors.response.data.errors);
+          }
+        } else {
+          console.log(errors);
+        }
       });
   }
 }

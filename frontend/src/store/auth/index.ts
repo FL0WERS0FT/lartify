@@ -6,7 +6,8 @@ import {AuthState} from "@/models/authState";
 import {RootState} from "@/models/rootState";
 
 export const state: AuthState = {
-    token: undefined
+    token: undefined,
+    errors: {},
 };
 
 const namespaced: boolean = true;
