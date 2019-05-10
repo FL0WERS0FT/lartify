@@ -8,6 +8,9 @@ module.exports = {
         proxy: {
             '^/api': {
                 target: 'http://lartify.ddev.local'
+            },
+            '^/404': {
+                target: 'http://lartify.ddev.local'
             }
         }
     },

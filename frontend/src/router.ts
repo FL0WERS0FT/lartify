@@ -4,6 +4,8 @@ import Home from './views/Home.vue';
 import Login from './views/Login.vue';
 import Register from './views/Register.vue';
 import Dashboard from './views/Dashboard.vue';
+import PageNotFound from './views/PageNotFound.vue';
+import store from "@/store/store";
 
 Vue.use(Router);
 
@@ -13,6 +15,9 @@ const router = new Router({
       path: '/',
       name: 'home',
       component: Home,
+      meta: {
+        auth: true,
+      },
     },
     {
       path: '/login',
@@ -32,11 +37,24 @@ const router = new Router({
           auth: true,
       },
     },
+    {
+      path: '*',
+      name: 'page-not-found',
+      component: PageNotFound
+    }
   ],
 });
 
-//router.beforeEach((to, from, next) => {
-//
-//});
+router.beforeEach((to, from, next) => {
+  if(to.meta.auth === true){
+    if(store.getters['auth/isAuthenticated'] === true){
+      next();
+    } else {
+      next('login');
+    }
+  } else {
+    next();
+  }
+});
 
 export default router;
