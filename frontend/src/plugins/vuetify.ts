@@ -1,8 +1,25 @@
-import Vue from 'vue'
-// @ts-ignore
-import Vuetify from 'vuetify/lib'
-import 'vuetify/src/stylus/app.styl'
+import Vuetify from "vuetify";
+import de from "vuetify/src/locale/de";
+import en from "vuetify/src/locale/en";
+import Vue from "vue";
 
-Vue.use(Vuetify, {
-  iconfont: 'md',
-})
+const vuetifyOpts = {
+    lang: {
+        locales: {
+            de,
+            en
+        },
+        current: 'de',
+    },
+    theme: {
+        dark: true
+    },
+    icons: {
+        iconfont: 'mdiSvg'
+    }
+};
+
+Vue.use(Vuetify);
+
+// @ts-ignore
+export default new Vuetify(vuetifyOpts)

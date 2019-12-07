@@ -1,27 +1,27 @@
 <template>
     <v-app dark>
-        <v-toolbar app>
+        <v-app-bar app>
             <v-toolbar-title class="text-uppercase">
-                <v-btn flat to="/" exact depressed class="headline">
+                <v-btn text to="/" exact depressed class="headline">
                     <v-icon class="mr-1">home</v-icon>
                     Lartify
                 </v-btn>
             </v-toolbar-title>
             <v-spacer></v-spacer>
             <div v-if="!isAuthenticated">
-                <v-btn flat to="login">
+                <v-btn text to="login">
                     <span class="mr-2">Login</span>
                 </v-btn>
-                <v-btn flat to="register">
+                <v-btn text to="register">
                     <span class="mr-2">Register</span>
                 </v-btn>
             </div>
             <div v-if="isAuthenticated">
-                <v-btn flat @click="logout">
+                <v-btn text @click="logout">
                     <span class="mr-2">logout</span>
                 </v-btn>
             </div>
-        </v-toolbar>
+        </v-app-bar>
 
         <v-content>
             <router-view></router-view>
