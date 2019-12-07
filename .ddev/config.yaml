@@ -1,4 +1,4 @@
-APIVersion: v1.7.1
+APIVersion: v1.12.0
 name: lartify
 type: php
 docroot: public
