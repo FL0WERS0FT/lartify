@@ -67,7 +67,7 @@ export default class Home extends Vue {
   protected password: string = "";
   protected repeatPassword: string = "";
 
-  get errors(){
+  private get errors(){
     return this.$store.state.auth.errors;
   }
 
