@@ -73,10 +73,10 @@ exit 0
 
 function init() {
 echo !!! Welcome to the Fast-Start script!
-echo !!! In the next steps, you are going to fast-deploy all dependencies and set your project name.
+echo !!! In the next steps, you are going to set your project name and fast-deploy all dependencies.
 continuePrompt
-configureDependencies
 projectNamePrompt
+configureDependencies
 deploymentStep
 }
 
