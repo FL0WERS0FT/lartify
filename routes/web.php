@@ -12,3 +12,4 @@
 */
 
 Route::view('/', 'index');
+Route::view('/{path}', 'index')->where('path', '^(?!404$).*$');
