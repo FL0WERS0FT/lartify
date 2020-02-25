@@ -1,6 +1,6 @@
 #!/bin/bash
 
-targetFiles=(".env.ddev" ".env.example" ".env"  "frontend/vue.config.js" ".ddev/config.yaml" "resources/views/errors/404.blade.php" "frontend/src/views/Dashboard.vue" "frontend/public/index.html" "frontend/src/App.vue" "public/index.html" "frontend/src/views/Home.vue")
+targetFiles=(".env.ddev" ".env.example" ".env" "frontend/src/store/store.ts" "frontend/vue.config.js" ".ddev/config.yaml" "resources/views/errors/404.blade.php" "frontend/src/views/Dashboard.vue" "frontend/public/index.html" "frontend/src/App.vue" "public/index.html" "frontend/src/views/Home.vue")
 
 function continuePrompt(){
 echo !!! "To continue, press [ENTER]."
@@ -54,19 +54,19 @@ function installFrontendPackages() {
 }
 
 function configureDependencies(){
-echo !!! The script is now going to install all project dependencies.
+echo !!! The script is now going to install all project dependencies !!currently no frontend!!.
 echo !!! If you are not running this script through ddev, please start ddev first.
 continuePrompt
 installBackendPackages
-installFrontendPackages
+#installFrontendPackages
 echo !!! Dependencies installed.
 }
 function deploymentStep() {
 echo !!! Running final deployment steps...
 ddevSwitch "php artisan key:generate"
-ddevSwitch "php artisan migrate"
 ddevSwitch "php artisan telescope:publish"
 ddevSwitch "php artisan passport:install"
+ddevSwitch "php artisan migrate"
 echo !!! finished deployment!
 exit 0
 }
