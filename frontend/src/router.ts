@@ -10,51 +10,52 @@ import store from "@/store/store";
 Vue.use(Router);
 
 const router = new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home,
-      meta: {
-        auth: true,
-      },
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login,
-    },
-    {
-      path: '/register',
-      name: 'register',
-      component: Register,
-    },
-    {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Dashboard,
-      meta: {
-          auth: true,
-      },
-    },
-    {
-      path: '*',
-      name: 'page-not-found',
-      component: PageNotFound
-    }
-  ],
+    mode: "history",
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: Home,
+            meta: {
+                auth: true,
+            },
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: Login,
+        },
+        {
+            path: '/register',
+            name: 'register',
+            component: Register,
+        },
+        {
+            path: '/dashboard',
+            name: 'dashboard',
+            component: Dashboard,
+            meta: {
+                auth: true,
+            },
+        },
+        {
+            path: '*',
+            name: 'page-not-found',
+            component: PageNotFound
+        }
+    ],
 });
 
 router.beforeEach((to, from, next) => {
-  if(to.meta.auth === true){
-    if(store.getters['auth/isAuthenticated'] === true){
-      next();
+    if (to.meta.auth === true) {
+        if (store.getters['auth/isAuthenticated'] === true) {
+            next();
+        } else {
+            next('login');
+        }
     } else {
-      next('login');
+        next();
     }
-  } else {
-    next();
-  }
 });
 
 export default router;
