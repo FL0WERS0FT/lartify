@@ -60,7 +60,7 @@ import { Component, Vue } from "vue-property-decorator";
 import axios from "axios";
 
 @Component({})
-export default class Home extends Vue {
+export default class Register extends Vue {
   protected showPassword: boolean = false;
   protected username: string = "";
   protected email: string = "";
