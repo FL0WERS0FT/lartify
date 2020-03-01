@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "caouecs/laravel-lang",
-            "version": "4.0.9",
+            "version": "4.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "99b43723eff9a454c1c7e7124e5b1fa560a97c81"
+                "reference": "db23833785bb4e675ed1d06582f375ccbb8d4e6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/99b43723eff9a454c1c7e7124e5b1fa560a97c81",
-                "reference": "99b43723eff9a454c1c7e7124e5b1fa560a97c81",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/db23833785bb4e675ed1d06582f375ccbb8d4e6a",
+                "reference": "db23833785bb4e675ed1d06582f375ccbb8d4e6a",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-02-02T13:13:33+00:00"
+            "time": "2020-03-01T14:11:14+00:00"
         },
         {
             "name": "defuse/php-encryption",
