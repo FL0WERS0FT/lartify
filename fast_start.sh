@@ -1,6 +1,6 @@
 #!/bin/bash
 
-targetFiles=(".env.ddev" ".env.example" ".env" "frontend/src/store/store.ts" "frontend/vue.config.js" ".ddev/config.yaml" "resources/views/errors/404.blade.php" "frontend/src/views/Dashboard.vue" "frontend/public/index.html" "frontend/src/App.vue" "public/index.html" "frontend/src/views/Home.vue")
+targetFiles=(".env.ddev" ".env.example" ".env" "frontend/src/store/store.ts" "frontend/vue.config.js" ".ddev/config.yaml" "frontend/src/views/Dashboard.vue" "frontend/public/index.html" "frontend/src/App.vue" "public/index.html" "frontend/src/views/Home.vue")
 
 function continuePrompt(){
 echo !!! "To continue, press [ENTER]."
