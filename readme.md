@@ -2,7 +2,17 @@
 Lartify is a laravel starter project template.
 
 ## 🚧 Work in progress.
-The template is still in progress and cannot be used yet.
+The template is likley unstable and not everything is tested yet.
+Use at your own risk!
+
+## Installation using DDEV install
+
+For easier install, you can use the `ddev install` command to get started more quickly.<br>
+Benefits are:
+* Ability to define a project name which is set in every relevant file
+* Ability to automatically install frontend and backend dependencies
+* Auto-Run migrations
+* Auto-Generate app keys
 
 ## Installation with DDEV
 * `git clone https://github.com/Hans4221/lartify.git`
