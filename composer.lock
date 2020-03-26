@@ -1058,16 +1058,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v7.1.0",
+            "version": "v7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "59b97d2868ff42d11626e63c6773b41146b3eb9c"
+                "reference": "951e10fbfed2a2d547c3fc33853125b4a619e01a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/59b97d2868ff42d11626e63c6773b41146b3eb9c",
-                "reference": "59b97d2868ff42d11626e63c6773b41146b3eb9c",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/951e10fbfed2a2d547c3fc33853125b4a619e01a",
+                "reference": "951e10fbfed2a2d547c3fc33853125b4a619e01a",
                 "shasum": ""
             },
             "require": {
@@ -1155,7 +1155,7 @@
                 "ext-memcached": "Required to use the memcache cache driver.",
                 "ext-pcntl": "Required to use all features of the queue worker.",
                 "ext-posix": "Required to use all features of the queue worker.",
-                "ext-redis": "Required to use the Redis cache and queue drivers.",
+                "ext-redis": "Required to use the Redis cache and queue drivers (^4.0|^5.0).",
                 "filp/whoops": "Required for friendly error pages in development (^2.4).",
                 "fzaninotto/faker": "Required to use the eloquent factory builder (^1.9.1).",
                 "guzzlehttp/guzzle": "Required to use the HTTP Client, Mailgun mail driver and the ping methods on schedules (^6.3.1|^7.0).",
@@ -1205,7 +1205,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-03-10T14:07:01+00:00"
+            "time": "2020-03-13T13:52:44+00:00"
         },
         {
             "name": "laravel/passport",
@@ -1464,16 +1464,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "8015f806173c6ee54de25a87c2d69736696e88db"
+                "reference": "75542a366ccbe1896ed79fcf3e8e68206d6c4257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/8015f806173c6ee54de25a87c2d69736696e88db",
-                "reference": "8015f806173c6ee54de25a87c2d69736696e88db",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/75542a366ccbe1896ed79fcf3e8e68206d6c4257",
+                "reference": "75542a366ccbe1896ed79fcf3e8e68206d6c4257",
                 "shasum": ""
             },
             "require": {
@@ -1534,7 +1534,7 @@
                 "md",
                 "parser"
             ],
-            "time": "2020-02-28T18:53:50+00:00"
+            "time": "2020-03-25T19:55:28+00:00"
         },
         {
             "name": "league/event",
@@ -1588,16 +1588,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.65",
+            "version": "1.0.66",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8"
+                "reference": "021569195e15f8209b1c4bebb78bd66aa4f08c21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
-                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/021569195e15f8209b1c4bebb78bd66aa4f08c21",
+                "reference": "021569195e15f8209b1c4bebb78bd66aa4f08c21",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-03-08T18:53:20+00:00"
+            "time": "2020-03-17T18:58:12+00:00"
         },
         {
             "name": "league/oauth2-server",
@@ -1881,16 +1881,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.31.0",
+            "version": "2.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d"
+                "reference": "7410a349613bf32d02d8aaed1c669698ddd2b718"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d",
-                "reference": "bbc0ab53f41a4c6f223c18efcdbd9bc725eb5d2d",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7410a349613bf32d02d8aaed1c669698ddd2b718",
+                "reference": "7410a349613bf32d02d8aaed1c669698ddd2b718",
                 "shasum": ""
             },
             "require": {
@@ -1899,6 +1899,7 @@
                 "symfony/translation": "^3.4 || ^4.0 || ^5.0"
             },
             "require-dev": {
+                "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
                 "kylekatarnls/multi-tester": "^1.1",
                 "phpmd/phpmd": "^2.8",
@@ -1947,7 +1948,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-03-01T11:11:58+00:00"
+            "time": "2020-03-24T16:01:47+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2645,20 +2646,20 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959"
+                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
-                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9 || ^7.0"
+                "php": "^5.5.9 || ^7.0 || ^8.0"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.3",
@@ -2696,7 +2697,7 @@
                 "php",
                 "type"
             ],
-            "time": "2019-12-15T19:35:24+00:00"
+            "time": "2020-03-21T18:07:53+00:00"
         },
         {
             "name": "phpseclib/bcmath_compat",
@@ -3092,16 +3093,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
-                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "shasum": ""
             },
             "require": {
@@ -3135,7 +3136,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01T11:05:21+00:00"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -5247,16 +5248,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v4.1.1",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9"
+                "reference": "939dfda2d7267ac8fc53ac3d642b5de357554c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/32bd5ca5a4170f88e27073353013d210a3354ae9",
-                "reference": "32bd5ca5a4170f88e27073353013d210a3354ae9",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/939dfda2d7267ac8fc53ac3d642b5de357554c39",
+                "reference": "939dfda2d7267ac8fc53ac3d642b5de357554c39",
                 "shasum": ""
             },
             "require": {
@@ -5305,20 +5306,20 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-03-01T23:56:01+00:00"
+            "time": "2020-03-12T13:44:15+00:00"
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.4.9",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "9fd2b224c71448b5f84aef9d499a1428d79776a2"
+                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/9fd2b224c71448b5f84aef9d499a1428d79776a2",
-                "reference": "9fd2b224c71448b5f84aef9d499a1428d79776a2",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/240e93829a5f985fab0984a6e55ae5e26b78a334",
+                "reference": "240e93829a5f985fab0984a6e55ae5e26b78a334",
                 "shasum": ""
             },
             "require": {
@@ -5354,7 +5355,7 @@
                 "clean",
                 "php"
             ],
-            "time": "2020-03-06T02:47:42+00:00"
+            "time": "2020-03-13T01:23:26+00:00"
         }
     ],
     "packages-dev": [
