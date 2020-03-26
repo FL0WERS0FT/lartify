@@ -11,6 +11,7 @@
         "php": "^7.4",
         "caouecs/laravel-lang": "^6.0",
         "fideloper/proxy": "^4.3",
+        "fruitcake/laravel-cors": "^1.0",
         "laravel/framework": "^7.1",
         "laravel/passport": "^8.4",
         "laravel/telescope": "^3.1",
