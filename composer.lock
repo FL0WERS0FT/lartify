@@ -4,27 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d91755d5688e76ecbb5a213831acca22",
+    "content-hash": "60e8f5059b7c6d33fac5ad428df445d5",
     "packages": [
         {
             "name": "caouecs/laravel-lang",
-            "version": "4.0.10",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "db23833785bb4e675ed1d06582f375ccbb8d4e6a"
+                "reference": "1f21bad146c6a042f13f34b8db64966584699c57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/db23833785bb4e675ed1d06582f375ccbb8d4e6a",
-                "reference": "db23833785bb4e675ed1d06582f375ccbb8d4e6a",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/1f21bad146c6a042f13f34b8db64966584699c57",
+                "reference": "1f21bad146c6a042f13f34b8db64966584699c57",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.10"
             },
             "suggest": {
                 "ablunier/laravel-lang-installer": "Command for easily add languages to a Laravel project",
@@ -50,7 +47,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-03-01T14:11:14+00:00"
+            "time": "2020-03-17T15:39:13+00:00"
         },
         {
             "name": "clue/stream-filter",
