@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.4",
-        "caouecs/laravel-lang": "^4.0",
+        "caouecs/laravel-lang": "^6.0",
         "fideloper/proxy": "^4.3",
         "laravel/framework": "^7.1",
         "laravel/passport": "^8.4",
