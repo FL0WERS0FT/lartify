@@ -18,7 +18,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.8.4", "@babel/core@^7.9.0":
+"@babel/core@^7.1.0", "@babel/core@^7.9.0":
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.9.0.tgz#ac977b538b77e132ff706f3b8a4dbad09c03c56e"
   integrity sha512-kWc7L0fw1xwvI0zi8OKVBuxRVefwGOrKSQMvrQ3dW+bIIavBY3/NpXmpjMy7bQnLgwgzWQZ8TlM57YHpHNHz4w==
@@ -168,18 +168,6 @@
   integrity sha512-R0Bx3jippsbAEtzkpZ/6FIiuzOURPcMjHp+Z6xPe6DtApDJx+w7UYyOLanZqO8+wKR9G10s/FmHXvxaMd9s6Kg==
   dependencies:
     "@babel/types" "^7.8.3"
-
-"@babel/helper-module-transforms@^7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.8.3.tgz#d305e35d02bee720fbc2c3c3623aa0c316c01590"
-  integrity sha512-C7NG6B7vfBa/pwCOshpMbOYUmrYQDfCpVL/JCRu0ek8B5p8kue1+BCXpg2vOYs7w5ACB9GTOBYQ5U6NwrMg+3Q==
-  dependencies:
-    "@babel/helper-module-imports" "^7.8.3"
-    "@babel/helper-simple-access" "^7.8.3"
-    "@babel/helper-split-export-declaration" "^7.8.3"
-    "@babel/template" "^7.8.3"
-    "@babel/types" "^7.8.3"
-    lodash "^4.17.13"
 
 "@babel/helper-module-transforms@^7.9.0":
   version "7.9.0"
@@ -595,16 +583,6 @@
   dependencies:
     "@babel/helper-module-transforms" "^7.9.0"
     "@babel/helper-plugin-utils" "^7.8.3"
-    babel-plugin-dynamic-import-node "^2.3.0"
-
-"@babel/plugin-transform-modules-commonjs@^7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.8.3.tgz#df251706ec331bd058a34bdd72613915f82928a5"
-  integrity sha512-JpdMEfA15HZ/1gNuB9XEDlZM1h/gF/YOH7zaZzQu2xCFRfwc01NXBMHHSTT6hRjlXJJs5x/bfODM3LiCk94Sxg==
-  dependencies:
-    "@babel/helper-module-transforms" "^7.8.3"
-    "@babel/helper-plugin-utils" "^7.8.3"
-    "@babel/helper-simple-access" "^7.8.3"
     babel-plugin-dynamic-import-node "^2.3.0"
 
 "@babel/plugin-transform-modules-commonjs@^7.9.0":
@@ -1421,15 +1399,15 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-unit-jest@~4.2.3":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-unit-jest/-/cli-plugin-unit-jest-4.2.3.tgz#2c8b0bcb2610b4d53cafff40a3e3aa7ba2ea302d"
-  integrity sha512-i/UC7aV5W4yBOj/UiFw2icgErT6/60vvatNSs0AgQ2dawqcyX6JVP0o8c7em7UUrBaQGWfGVkpjSZHWBM5ZDTg==
+"@vue/cli-plugin-unit-jest@~4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-unit-jest/-/cli-plugin-unit-jest-4.3.0.tgz#f80289cbe4c8f82fb2c69de0af1161a223b40dc9"
+  integrity sha512-xqzQow1We2C2y2MUfS2vKhrvVEN4LVwrhTqDQ2U2MiKXgyoKRNI9pd+usaJD/hupnvvGd5OC2Bx/QsFCWwnh5g==
   dependencies:
-    "@babel/core" "^7.8.4"
-    "@babel/plugin-transform-modules-commonjs" "^7.8.3"
+    "@babel/core" "^7.9.0"
+    "@babel/plugin-transform-modules-commonjs" "^7.9.0"
     "@types/jest" "^24.0.19"
-    "@vue/cli-shared-utils" "^4.2.3"
+    "@vue/cli-shared-utils" "^4.3.0"
     babel-core "^7.0.0-bridge.0"
     babel-jest "^24.9.0"
     babel-plugin-transform-es2015-modules-commonjs "^6.26.2"
@@ -1505,7 +1483,7 @@
     webpack-dev-server "^3.10.3"
     webpack-merge "^4.2.2"
 
-"@vue/cli-shared-utils@^4.2.3", "@vue/cli-shared-utils@^4.3.0":
+"@vue/cli-shared-utils@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.3.0.tgz#fad826cbc702a16b7c36841dc16ef3cff6f0ea40"
   integrity sha512-iGWoYvPZvsJqIeXfaJcf5LgsaiqyYSnXEHkW+52ELfniw6NZAr1mdn4vPzppAElhFd87TY3rq0DFXP8UBr+/6w==
