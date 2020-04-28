@@ -1136,16 +1136,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v7.9.1",
+            "version": "v7.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "165bb112ec8de79939504cbcee8886c93bad6819"
+                "reference": "757b155658ae6da429065ba8f22242fe599824f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/165bb112ec8de79939504cbcee8886c93bad6819",
-                "reference": "165bb112ec8de79939504cbcee8886c93bad6819",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/757b155658ae6da429065ba8f22242fe599824f7",
+                "reference": "757b155658ae6da429065ba8f22242fe599824f7",
                 "shasum": ""
             },
             "require": {
@@ -1284,7 +1284,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-04-28T14:47:17+00:00"
+            "time": "2020-04-28T16:09:20+00:00"
         },
         {
             "name": "laravel/passport",
