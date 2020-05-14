@@ -106,16 +106,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "6.0.1",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "1f21bad146c6a042f13f34b8db64966584699c57"
+                "reference": "6769c655a02f77736e1d71d97b3f9e7986bb501b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/1f21bad146c6a042f13f34b8db64966584699c57",
-                "reference": "1f21bad146c6a042f13f34b8db64966584699c57",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/6769c655a02f77736e1d71d97b3f9e7986bb501b",
+                "reference": "6769c655a02f77736e1d71d97b3f9e7986bb501b",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-03-17T15:39:13+00:00"
+            "time": "2020-05-13T07:58:35+00:00"
         },
         {
             "name": "clue/stream-filter",
