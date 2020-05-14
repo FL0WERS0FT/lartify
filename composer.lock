@@ -1303,16 +1303,16 @@
         },
         {
             "name": "laravel/passport",
-            "version": "v9.2.0",
+            "version": "v9.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/passport.git",
-                "reference": "9f4b88114e7517db58428cef0ba461f86a2e5f92"
+                "reference": "0931d75235283d651b767d291a79cafba5d6ce68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/passport/zipball/9f4b88114e7517db58428cef0ba461f86a2e5f92",
-                "reference": "9f4b88114e7517db58428cef0ba461f86a2e5f92",
+                "url": "https://api.github.com/repos/laravel/passport/zipball/0931d75235283d651b767d291a79cafba5d6ce68",
+                "reference": "0931d75235283d651b767d291a79cafba5d6ce68",
                 "shasum": ""
             },
             "require": {
@@ -1372,7 +1372,7 @@
                 "oauth",
                 "passport"
             ],
-            "time": "2020-05-12T20:45:28+00:00"
+            "time": "2020-05-14T08:24:43+00:00"
         },
         {
             "name": "laravel/telescope",
