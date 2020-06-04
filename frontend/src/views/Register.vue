@@ -68,7 +68,7 @@ export default class Register extends Vue {
   protected repeatPassword: string = "";
 
   private get errors(){
-    return this.$store.state.auth.errors;
+    return this.$store.state.authModule.errors;
   }
 
   protected register() {
