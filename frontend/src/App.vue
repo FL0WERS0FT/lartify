@@ -44,7 +44,7 @@
     methods: {
       logout() {
         axios.post('/api/v1/logout').then(response => {
-          this.$store.dispatch('auth/setToken', undefined);
+          this.$store.dispatch('authModule/setToken', undefined);
           this.$router.push({
             name: 'home'
           });
@@ -53,7 +53,7 @@
     },
     computed: {
       ...mapGetters({
-        isAuthenticated: 'auth/isAuthenticated',
+        isAuthenticated: 'authModule/isAuthenticated',
       }),
     },
   };

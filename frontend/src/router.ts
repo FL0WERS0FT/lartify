@@ -48,7 +48,7 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
     if (to.meta.auth === true) {
-        if (store.getters['auth/isAuthenticated'] === true) {
+        if (store.getters['authModule/isAuthenticated'] === true) {
             next();
         } else {
             next('login');
