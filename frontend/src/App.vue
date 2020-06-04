@@ -29,32 +29,38 @@
     </v-app>
 </template>
 
-<script>
-  import {mapGetters} from 'vuex';
-  import axios from 'axios';
+<script
+    lang="ts">
+    import axios from 'axios';
+    import { Component, Vue } from 'vue-property-decorator';
+    @Component({})
+    export default class Lartify extends Vue {
+        private name: string = 'Lartify';
+        private get isAuthenticated() {
+            return this.$store.getters['authModule/isAuthenticated'];
+        }
 
-  export default {
-    name: 'Lartify',
-    components: {},
-    data() {
-      return {
-        //
-      };
-    },
-    methods: {
-      logout() {
-        axios.post('/api/v1/logout').then(response => {
-          this.$store.dispatch('authModule/setToken', undefined);
-          this.$router.push({
-            name: 'home'
-          });
-        });
-      },
-    },
-    computed: {
-      ...mapGetters({
-        isAuthenticated: 'authModule/isAuthenticated',
-      }),
-    },
-  };
+        private logout() {
+            axios.post('/api/v1/logout').then(response => {
+                this.$store.dispatch('authModule/setToken', undefined);
+                this.$router.push('login');
+            });
+        }
+
+        public created() {
+            if (this.$store.state.authModule.token) {
+                axios.defaults.headers.common.Authorization = 'Bearer ' + this.$store.state.authModule.token;
+            }
+            axios.defaults.headers.common.Accept = 'application/json';
+            axios.interceptors.response.use(undefined, (error) => {
+                if (!axios.isCancel(error)) {
+                    if (error.response.status===401) {
+                        this.$store.dispatch('authModule/setToken', '');
+                        this.$router.push('/login');
+                    }
+                }
+                return Promise.reject(error);
+            });
+        }
+    }
 </script>
