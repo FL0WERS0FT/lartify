@@ -1,18 +1,18 @@
 import Vue from 'vue';
 import Vuex, {StoreOptions} from 'vuex';
-import {auth} from './auth/index';
-import {RootState} from "@/models/rootState";
-import VuexPersistence from "vuex-persist";
+import {authModule} from './authModule/index';
+import {RootState} from '@/models/rootState';
+import VuexPersistence from 'vuex-persist';
 
 Vue.use(Vuex);
 
 const mutationList = [
-    'auth/setToken',
+    'authModule/setToken',
 ];
 const vuexPersist = new VuexPersistence<RootState>({
     key: 'lartify-vuex',
     storage: window.localStorage,
-    modules: ['auth', 'user'],
+    modules: ['authModule'],
     filter: (mutation) => {
         return mutationList.includes(mutation.type);
     },
@@ -23,8 +23,9 @@ const store: StoreOptions<RootState> = {
         version: "1.0.0",
     },
     modules: {
-        auth
+        authModule
     },
+    // @ts-ignore
     plugins: [vuexPersist.plugin],
 };
 
