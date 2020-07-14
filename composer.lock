@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdf9bce91a1f2a573bac73c935cbb533",
+    "content-hash": "d7bdb01fb1100774a03f2d9090f683c9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -112,16 +112,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "6.1.1",
+            "version": "7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "dc7d038a35660bf1eae92a04c6b189f3e1382f34"
+                "reference": "2a664c10dbc77b48583825dc0b76850a67842763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/dc7d038a35660bf1eae92a04c6b189f3e1382f34",
-                "reference": "dc7d038a35660bf1eae92a04c6b189f3e1382f34",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/2a664c10dbc77b48583825dc0b76850a67842763",
+                "reference": "2a664c10dbc77b48583825dc0b76850a67842763",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-07-10T08:37:38+00:00"
+            "time": "2020-07-13T18:58:06+00:00"
         },
         {
             "name": "clue/stream-filter",
