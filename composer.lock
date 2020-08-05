@@ -112,16 +112,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "7.0.1",
+            "version": "7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8"
+                "reference": "c28e39a14dc3cacaeb8db0a7cc612db37d1e15cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8",
-                "reference": "fe2872f7c2dd19afb11d83443a81ac9e8e4cb2b8",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/c28e39a14dc3cacaeb8db0a7cc612db37d1e15cc",
+                "reference": "c28e39a14dc3cacaeb8db0a7cc612db37d1e15cc",
                 "shasum": ""
             },
             "require": {
@@ -150,7 +150,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2020-07-14T08:27:14+00:00"
+            "time": "2020-08-05T17:42:42+00:00"
         },
         {
             "name": "clue/stream-filter",
