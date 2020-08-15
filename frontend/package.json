@@ -23,7 +23,7 @@
     "vuex-persist": "^2.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.9",
+    "@types/jest": "^26.0.10",
     "@vue/cli-plugin-babel": "~4.5.3",
     "@vue/cli-plugin-e2e-nightwatch": "~4.5.3",
     "@vue/cli-plugin-pwa": "~4.5.3",
