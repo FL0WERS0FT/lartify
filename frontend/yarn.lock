@@ -1790,12 +1790,12 @@
     thread-loader "^2.1.3"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-e2e-nightwatch@~4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-nightwatch/-/cli-plugin-e2e-nightwatch-4.5.8.tgz#379112a9f869fd25a99a5dc0a20591dc0a5bb0ed"
-  integrity sha512-x19QDjuMA4/Upaakj9A0IQukGtTZQO3HS8wo+D9ICok+VYVk2BqpMoyzXeoWOHO7KZnsbnpI6aGlRypchJTzjA==
+"@vue/cli-plugin-e2e-nightwatch@~4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-nightwatch/-/cli-plugin-e2e-nightwatch-4.5.10.tgz#4c9172fa169242df0cff8f4566d3ec02536e086f"
+  integrity sha512-3VHPh07H89tVcgXUHPnXgmwrMglVXhKKHnul6VusmQGYHowIx2x5xut9rk8k2HJiWAjFoCDnNYAOZ4XlG5ovCA==
   dependencies:
-    "@vue/cli-shared-utils" "^4.5.8"
+    "@vue/cli-shared-utils" "^4.5.10"
     deepmerge "^4.2.2"
     nightwatch "^1.3.5"
 
@@ -1922,10 +1922,10 @@
   optionalDependencies:
     vue-loader-v16 "npm:vue-loader@^16.0.0-beta.7"
 
-"@vue/cli-shared-utils@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.8.tgz#d454306aaa510e666a34b144afc81830fc23acc9"
-  integrity sha512-pa6oenhBO/5HeDLRSokiwVN01gROACEDy3ESXWuPmragOREGNmmFKtkPHlqeYavGEX6LFp7f0VK3uMX6UYS5mQ==
+"@vue/cli-shared-utils@^4.5.10", "@vue/cli-shared-utils@^4.5.8":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.10.tgz#e3b84c38bba19c6d995278b15261da865790561c"
+  integrity sha512-Lid6FflDqcvo/JBIBjUriAQ1RkQaKbBpzXSLEK/JmoKkQRHW/rRhDLGI1dEVyOLYnDEiL1m8o1xPJaplUUiXpA==
   dependencies:
     "@hapi/joi" "^15.0.1"
     chalk "^2.4.2"
