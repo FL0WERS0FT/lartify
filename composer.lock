@@ -6399,16 +6399,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.1.8",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "4e13f3fcefb1fcaaa5efb5403581406f4e840b9a"
+                "reference": "173a79c462b1c81e1fa26129f71e41333d846b26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4e13f3fcefb1fcaaa5efb5403581406f4e840b9a",
-                "reference": "4e13f3fcefb1fcaaa5efb5403581406f4e840b9a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/173a79c462b1c81e1fa26129f71e41333d846b26",
+                "reference": "173a79c462b1c81e1fa26129f71e41333d846b26",
                 "shasum": ""
             },
             "require": {
@@ -6480,7 +6480,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-27T10:11:13+00:00"
+            "time": "2020-11-27T00:39:34+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6679,23 +6679,23 @@
     "packages-dev": [
         {
             "name": "beyondcode/laravel-dump-server",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beyondcode/laravel-dump-server.git",
-                "reference": "1d1b4c066a7f855d34a027f7af49aa77416c3c1b"
+                "reference": "e27c7b942ab62f6ac7168359393d328ec5215b89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beyondcode/laravel-dump-server/zipball/1d1b4c066a7f855d34a027f7af49aa77416c3c1b",
-                "reference": "1d1b4c066a7f855d34a027f7af49aa77416c3c1b",
+                "url": "https://api.github.com/repos/beyondcode/laravel-dump-server/zipball/e27c7b942ab62f6ac7168359393d328ec5215b89",
+                "reference": "e27c7b942ab62f6ac7168359393d328ec5215b89",
                 "shasum": ""
             },
             "require": {
                 "illuminate/console": "5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
                 "illuminate/http": "5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
                 "illuminate/support": "5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
-                "php": "^7.2.5",
+                "php": ">=7.2.5",
                 "symfony/var-dumper": "^5.0"
             },
             "require-dev": {
@@ -6736,7 +6736,7 @@
                 "beyondcode",
                 "laravel-dump-server"
             ],
-            "time": "2020-10-22T07:39:00+00:00"
+            "time": "2020-12-15T10:57:43+00:00"
         },
         {
             "name": "doctrine/instantiator",
