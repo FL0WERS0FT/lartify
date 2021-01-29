@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "068bf65ee93f91144ca38e4dcb032902",
+    "content-hash": "769fb32140567ca1543e701ef6e2f22a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1258,16 +1258,16 @@
         },
         {
             "name": "laravel-lang/lang",
-            "version": "7.0.9",
+            "version": "8.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Lang/lang.git",
-                "reference": "679a65755db37b35acd36a5e0ca51e055815a00a"
+                "reference": "3c4e73da36cfcbc82de286b82662b803299c72a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/679a65755db37b35acd36a5e0ca51e055815a00a",
-                "reference": "679a65755db37b35acd36a5e0ca51e055815a00a",
+                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/3c4e73da36cfcbc82de286b82662b803299c72a4",
+                "reference": "3c4e73da36cfcbc82de286b82662b803299c72a4",
                 "shasum": ""
             },
             "require": {
@@ -1297,9 +1297,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Laravel-Lang/lang/issues",
-                "source": "https://github.com/Laravel-Lang/lang/tree/7.0.9"
+                "source": "https://github.com/Laravel-Lang/lang/tree/8.0.3"
             },
-            "time": "2020-11-30T20:35:41+00:00"
+            "time": "2021-01-29T20:56:52+00:00"
         },
         {
             "name": "laravel/framework",
