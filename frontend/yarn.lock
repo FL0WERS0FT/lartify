@@ -4574,10 +4574,10 @@ eslint-plugin-vue@^6.2.2:
     semver "^5.6.0"
     vue-eslint-parser "^7.0.0"
 
-eslint-plugin-vuetify@^1.0.0-beta.7:
-  version "1.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vuetify/-/eslint-plugin-vuetify-1.0.0-beta.7.tgz#5f59e821e33df22a44f58a21ebd60fc6604e3f76"
-  integrity sha512-1qzMFR9QlcQLzMWxgslTnluDF3hZne9Q24jEfYu3mEhhs/4SiFrCFvbKmVkMShY4kfeZRcLL87KzlUq+3dyyuw==
+eslint-plugin-vuetify@^1.0.0-beta.8:
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vuetify/-/eslint-plugin-vuetify-1.0.0-beta.8.tgz#72cb0cb20acc5957845c72405581c62bf9720715"
+  integrity sha512-C0EtBYPVRhZnv/fPs32/v8QD73tkphU7tZymbfKb9M20Gr2vkTg9qnnt4Gv1JJpDhDxfOD/8uY4K5oeCbgBc8w==
   dependencies:
     eslint-plugin-vue "^6.2.2"
     requireindex "^1.2.0"
