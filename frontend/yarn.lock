@@ -1847,12 +1847,12 @@
     deepmerge "^4.2.2"
     nightwatch "^1.3.5"
 
-"@vue/cli-plugin-pwa@~4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-pwa/-/cli-plugin-pwa-4.5.11.tgz#3031b4d3798707c353f2ad47b7c57a4708a17611"
-  integrity sha512-7wvNdR8EXRWaLlybPlk4B6+lE8y+sG2kXq69EyH4ILRmZnFYc22dY22eUhR1EIFTmRxHR0g8qDBrp1BvaNeaYA==
+"@vue/cli-plugin-pwa@~4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-pwa/-/cli-plugin-pwa-4.5.12.tgz#723ee4028e3086e910e7d357db39889203f30054"
+  integrity sha512-B8da8oHaBZHtt44skmwFRzYTqclyD4tk9JaZp9uV4J26fsz+hzbSbB1araUPkSP3eql4LBD1TTadvyY4jfo8jQ==
   dependencies:
-    "@vue/cli-shared-utils" "^4.5.11"
+    "@vue/cli-shared-utils" "^4.5.12"
     webpack "^4.0.0"
     workbox-webpack-plugin "^4.3.1"
 
