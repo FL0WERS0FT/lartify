@@ -27,5 +27,6 @@ jobs:
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
+        TELESCOPE_ENABLED: false
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
