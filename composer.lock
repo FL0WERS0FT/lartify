@@ -1054,16 +1054,16 @@
         },
         {
             "name": "laravel-lang/lang",
-            "version": "9.1.1",
+            "version": "9.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Lang/lang.git",
-                "reference": "c39f67621a3a7a0fedc901eccb62a37fb506f322"
+                "reference": "8c5cc7a493af27e175a9f1b7f5c2242bb9faec87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/c39f67621a3a7a0fedc901eccb62a37fb506f322",
-                "reference": "c39f67621a3a7a0fedc901eccb62a37fb506f322",
+                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/8c5cc7a493af27e175a9f1b7f5c2242bb9faec87",
+                "reference": "8c5cc7a493af27e175a9f1b7f5c2242bb9faec87",
                 "shasum": ""
             },
             "require": {
@@ -1105,7 +1105,7 @@
                 "issues": "https://github.com/Laravel-Lang/lang/issues",
                 "source": "https://github.com/Laravel-Lang/lang"
             },
-            "time": "2021-05-02T18:29:25+00:00"
+            "time": "2021-05-14T21:25:59+00:00"
         },
         {
             "name": "laravel/framework",
