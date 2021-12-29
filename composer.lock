@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1618699e6571b028914f986d080943cb",
+    "content-hash": "93f2f52a41c9dd7ac1ee29b34f09efee",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1054,33 +1054,37 @@
         },
         {
             "name": "laravel-lang/lang",
-            "version": "9.1.1",
+            "version": "10.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Laravel-Lang/lang.git",
-                "reference": "c39f67621a3a7a0fedc901eccb62a37fb506f322"
+                "reference": "dbb5b475cc48d906427255f9a6e557d5075413a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/c39f67621a3a7a0fedc901eccb62a37fb506f322",
-                "reference": "c39f67621a3a7a0fedc901eccb62a37fb506f322",
+                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/dbb5b475cc48d906427255f9a6e557d5075413a1",
+                "reference": "dbb5b475cc48d906427255f9a6e557d5075413a1",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*"
             },
             "require-dev": {
-                "andrey-helldar/pretty-array": "^2.3",
-                "andrey-helldar/support": "^3.6",
+                "dragon-code/pretty-array": "^3.0",
+                "dragon-code/support": "^5.0",
                 "guzzlehttp/guzzle": "^7.3",
+                "laravel/breeze": "^1.2",
+                "laravel/fortify": "^1.7",
+                "laravel/jetstream": "^2.3",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5",
+                "symfony/finder": "^5.2",
                 "symfony/var-dumper": "^5.2",
                 "vlucas/phpdotenv": "^5.3"
             },
             "suggest": {
-                "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
                 "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "laravel-lang/publisher": "Easy installation and update of translation files for your project",
                 "overtrue/laravel-lang": "Command to add languages in your project"
             },
             "type": "library",
@@ -1105,7 +1109,7 @@
                 "issues": "https://github.com/Laravel-Lang/lang/issues",
                 "source": "https://github.com/Laravel-Lang/lang"
             },
-            "time": "2021-05-02T18:29:25+00:00"
+            "time": "2021-12-28T19:42:13+00:00"
         },
         {
             "name": "laravel/framework",
@@ -9607,5 +9611,5 @@
         "php": "^7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
