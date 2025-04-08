@@ -21,7 +21,7 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "beyondcode/laravel-dump-server": "^1.7.0",
+        "beyondcode/laravel-dump-server": "^2.1.0",
         "filp/whoops": "^2.12.1",
         "fzaninotto/faker": "^1.9.2",
         "mockery/mockery": "^1.4.3",
